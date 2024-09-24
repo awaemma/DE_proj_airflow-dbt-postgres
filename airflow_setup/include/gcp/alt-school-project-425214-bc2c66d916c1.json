@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "alt-school-project-425214",
+  "private_key_id": "bc2c66d916c183bcae64dc19b2446578bb04badf",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDZ3gQ3LAkx0jB/\nXaV4N0rVs9CchG8q/qak/ifEEHb6IRjpZZi4pKLQHjWkcw8oCebMXCznYFuBAazB\n8A73+zG8+lZ0Q5/lv3uGkBrz16oMOh9Y0tKLKk9aSOT3wXLd255ud5CxNyJyyCLV\n+Va5R5phNan4LEu25pvElnYsJaZm9YT80n1IYMpCEGuR5r4JXMul6vVai4ZbGrOB\nSYHTgv9MXRLOWHbuUAP0G9TkYcoehFp9BfvSPqFEXujaeImccJjq6d4TNW6DXGLs\nm0PFZ0a71Yj4BNFkclBxSw/ZUwq/DeVuUYekE4Rr0G8GNUypSYqDOU06MmCtdYvD\nRjESWbrnAgMBAAECggEABMw1OFtpftKSHtWBGO44YULEchRSHmN2zmTwznCBlKCF\n9YQ3O/NKlcRHvVQk6uZmhR/1tskSB5U+qK0Qp1Ij/KiTa5wE0wDHrf7rMqBDlMe/\nr16oV3tnClkjy0Qg5qHSq1WwUGnwAd15mhytIqD6oiL8ZNEU5o8AslbESdSXOLOR\nz3gHQ2UDZjnHscHt6ZztHysgUqh8W/8l1dlOcZw0tb6G28Hjs9UaUczDK9uh6aPj\ngb6T9qfp1VcbjGiZCuOyBheeTygkQj9O9Mzi68Py0JQylntPimRp/+CH9Tc1LQ7l\ncv32nsl3wC7VRVOyr2RLUJHzuHqjkszR3ilKosyqAQKBgQDxtMxT/2CpIENticiJ\nTeSfZqIi2koFWkn6Gcb7x9jW4XcqVk/CAhy3YAqN4FuHrZmROlqFw2OR1aCv67TL\nlUwsa8qmkkjPQtcJ0aiugbdOuZZnoyYtEwefpo1uH2FQ5/qbrTNgZ3XBrlrsizRw\nxkCJrfuSRCa5+AS5pzCjocem9wKBgQDmwFGYyM8+W6GnaJxHHpWhTbcIQEEcTj3z\njSAhV4piiYsfaEqlt41P5R4Exu7QjET6NmE5h1tB3vdlJsq43ki7XQ6K4NgmNRpr\nrP9ndGuJp1FM2O6aOXFKbOrJk35bbMY2sA0fTH6ESsQCmBB3b7Q7AN2bmBw+uDWG\n8BmrFQXfkQKBgQCFYiaX/AgVjO5o1m5KBygxJuw2m4vZpFfKossCSujIvCeMv5DI\nGW5La76nSLZ6Cz0BvdgSlR6vbdp8+nANINimct2kSnnPlq0giAi0NHU6BoSPsKLy\noNvGKJ1Hth14Dmxn2I7PloiPV25ptvA7g8w9rjt0HhPY8Jt68F6RDkglRQKBgG3u\nNXFqSYFVuh+9MKaZJYPhOE+P/PT1OYJsO2BnCiCDkmn2D4n/di0X5EM2WtOz37Cs\nc4kquQkaphXkczO7gj7wyFrVX2RkbB/cHRk2V30O3yaTOqjysMxaM0ixIcOAgLXR\nDY9Zq/Rugg8STtX3u49YjDryLpKaw7VzcWcV7uRhAoGAWkRvNvF4Mmub7tnGqZr2\n2XP0zHb+GFUEcfFATAdy3ZJufVDWfFSXiaP/ebzpnjzbJSX8dH/zelyZylmp1bwz\nZRBIxU6MT5egdCwgEpECLc6RcKaeSmh55pWwp5amoM37bsllul8si/nHhKnp0du/\nyvsGR3S8Spta3WH+Kon9OoQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "pygcs-proj-sa@alt-school-project-425214.iam.gserviceaccount.com",
+  "client_id": "108515593206636749372",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/pygcs-proj-sa%40alt-school-project-425214.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

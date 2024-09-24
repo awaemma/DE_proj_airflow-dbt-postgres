@@ -1,0 +1,27 @@
+version: 2
+
+sources:
+  - name: raw_data
+    description: "Source data from the raw_data dataset in BigQuery"
+    database: alt-school-project-425214  # GCP project id 
+    schema: raw_data  # dataset within my project
+
+    tables:
+      - name: customers
+        description: "Customer details"
+      - name: geolocation
+        description: "Location details"
+      - name: order_items
+        description: "order item details"
+      - name: order_payments
+        description: "order_payments details"
+      - name: order_reviews
+        description: "order_reviews details"
+      - name: orders
+        description: "Order details"
+      - name: product_category_name_translation
+        description: "product_category_name_translation details"
+      - name: sellers
+        description: "sellers details"
+      - name: products
+        description: "product details"

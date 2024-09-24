@@ -1,0 +1,492 @@
+[0m22:34:20.880499 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CC4C6CCCE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CC4C48A660>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CC4C6CE720>]}
+
+
+============================== 22:34:21.004694 | 3cc76929-2c55-4f7f-8395-d93170a40023 ==============================
+[0m22:34:21.004694 [info ] [MainThread]: Running with dbt=1.8.5
+[0m22:34:21.008668 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Awalem\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt init', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m22:34:53.784943 [debug] [MainThread]: Starter project path: C:\Users\Awalem\Desktop\ALT_School\altshool_final_project\env\Lib\site-packages\dbt\include\starter_project
+[0m22:34:54.045864 [info ] [MainThread]: 
+Your new dbt project "altschool_final_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m22:34:54.054188 [info ] [MainThread]: Setting up your profile.
+[0m22:38:30.638157 [info ] [MainThread]: Profile altschool_final_project written to C:\Users\Awalem\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m22:38:30.730129 [debug] [MainThread]: Command `dbt init` succeeded at 22:38:30.720241 after 252.74 seconds
+[0m22:38:30.741864 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CC4C7E6120>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CC64B5C7A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CC658FA6C0>]}
+[0m22:38:30.753566 [debug] [MainThread]: Flushing usage events
+[0m22:39:30.385148 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001727CFE68A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001727CFCECF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001727CFE51F0>]}
+
+
+============================== 22:39:30.405160 | afb0b9e6-2e46-494c-8081-55ad9d6fd956 ==============================
+[0m22:39:30.405160 [info ] [MainThread]: Running with dbt=1.8.5
+[0m22:39:30.407073 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Awalem\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m22:39:30.672162 [info ] [MainThread]: dbt version: 1.8.5
+[0m22:39:30.672162 [info ] [MainThread]: python version: 3.12.3
+[0m22:39:30.672162 [info ] [MainThread]: python path: C:\Users\Awalem\Desktop\ALT_School\altshool_final_project\env\Scripts\python.exe
+[0m22:39:30.680465 [info ] [MainThread]: os info: Windows-10-10.0.19044-SP0
+[0m22:39:45.048987 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.snowflake'
+[0m22:39:45.057315 [info ] [MainThread]: Using profiles dir at C:\Users\Awalem\.dbt
+[0m22:39:45.059406 [info ] [MainThread]: Using profiles.yml file at C:\Users\Awalem\.dbt\profiles.yml
+[0m22:39:45.059406 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Awalem\Desktop\ALT_School\altshool_final_project\dbt_setup\dbt_project.yml
+[0m22:39:45.067378 [info ] [MainThread]: Configuration:
+[0m22:39:45.067378 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m22:39:45.075398 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m22:39:45.083383 [info ] [MainThread]: Required dependencies:
+[0m22:39:45.085918 [debug] [MainThread]: Executing "git --help"
+[0m22:39:47.157751 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m22:39:47.166099 [debug] [MainThread]: STDERR: "b''"
+[0m22:39:47.166099 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m22:39:47.169749 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m22:39:47.169749 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m22:39:47.176432 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "dbt_project", target "dev" invalid: Runtime Error
+    Could not find adapter type snowflake!
+
+
+[0m22:39:47.178335 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Awalem\Desktop\ALT_School\altshool_final_project\dbt_setup\dbt_project.yml> not found
+
+[0m22:39:47.188673 [debug] [MainThread]: Command `dbt debug` failed at 22:39:47.188673 after 18.56 seconds
+[0m22:39:47.188673 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001727CFCECF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001727CDEA3C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001727C812690>]}
+[0m22:39:47.192254 [debug] [MainThread]: Flushing usage events
+[0m22:43:26.086259 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000155494E1BB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000155494E07A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000155494E2930>]}
+
+
+============================== 22:43:26.103081 | 924254c6-5fe4-4f1c-bfc8-66f445264843 ==============================
+[0m22:43:26.103081 [info ] [MainThread]: Running with dbt=1.8.5
+[0m22:43:26.111400 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\Awalem\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m22:43:26.295799 [info ] [MainThread]: dbt version: 1.8.5
+[0m22:43:26.300005 [info ] [MainThread]: python version: 3.12.3
+[0m22:43:26.300005 [info ] [MainThread]: python path: C:\Users\Awalem\Desktop\ALT_School\altshool_final_project\env\Scripts\python.exe
+[0m22:43:26.300005 [info ] [MainThread]: os info: Windows-10-10.0.19044-SP0
+[0m22:43:45.601224 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.snowflake'
+[0m22:43:45.601224 [info ] [MainThread]: Using profiles dir at C:\Users\Awalem\.dbt
+[0m22:43:45.601224 [info ] [MainThread]: Using profiles.yml file at C:\Users\Awalem\.dbt\profiles.yml
+[0m22:43:45.609516 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Awalem\Desktop\ALT_School\altshool_final_project\dbt_setup\dbt_project.yml
+[0m22:43:45.611601 [info ] [MainThread]: Configuration:
+[0m22:43:45.611601 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m22:43:45.620007 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m22:43:45.621932 [info ] [MainThread]: Required dependencies:
+[0m22:43:45.621932 [debug] [MainThread]: Executing "git --help"
+[0m22:43:47.585722 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m22:43:47.585722 [debug] [MainThread]: STDERR: "b''"
+[0m22:43:47.585722 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m22:43:47.595464 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m22:43:47.597911 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m22:43:47.597911 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "dbt_project", target "dev" invalid: Runtime Error
+    Could not find adapter type snowflake!
+
+
+[0m22:43:47.605977 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Awalem\Desktop\ALT_School\altshool_final_project\dbt_setup\dbt_project.yml> not found
+
+[0m22:43:47.618399 [debug] [MainThread]: Command `dbt debug` failed at 22:43:47.618399 after 25.50 seconds
+[0m22:43:47.620975 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015562DFBB00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015549C26D50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000155620586B0>]}
+[0m22:43:47.621996 [debug] [MainThread]: Flushing usage events
+[0m08:25:05.724949 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021A1F155430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021A1F1554C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021A1F1552B0>]}
+
+
+============================== 08:25:05.735954 | bb6e737e-da82-4b87-94bc-155aa4edcce4 ==============================
+[0m08:25:05.735954 [info ] [MainThread]: Running with dbt=1.8.5
+[0m08:25:05.737945 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\Awalem\\.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m08:25:05.824649 [info ] [MainThread]: dbt version: 1.8.5
+[0m08:25:05.826649 [info ] [MainThread]: python version: 3.12.3
+[0m08:25:05.828649 [info ] [MainThread]: python path: C:\Users\Awalem\Desktop\ALT_School\altshool_final_project\env\Scripts\python.exe
+[0m08:25:05.830648 [info ] [MainThread]: os info: Windows-10-10.0.19044-SP0
+[0m08:25:19.769783 [info ] [MainThread]: Using profiles dir at C:\Users\Awalem\.dbt
+[0m08:25:19.772075 [info ] [MainThread]: Using profiles.yml file at C:\Users\Awalem\.dbt\profiles.yml
+[0m08:25:19.773803 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Awalem\Desktop\ALT_School\altshool_final_project\dbt_setup\dbt_project.yml
+[0m08:25:19.775608 [info ] [MainThread]: adapter type: bigquery
+[0m08:25:19.776661 [info ] [MainThread]: adapter version: 1.8.2
+[0m08:25:19.778878 [info ] [MainThread]: Configuration:
+[0m08:25:19.780876 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m08:25:19.781874 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m08:25:19.783881 [info ] [MainThread]: Required dependencies:
+[0m08:25:19.786875 [debug] [MainThread]: Executing "git --help"
+[0m08:25:20.881864 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m08:25:20.882870 [debug] [MainThread]: STDERR: "b''"
+[0m08:25:20.883872 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m08:25:20.885865 [info ] [MainThread]: Connection:
+[0m08:25:20.887867 [info ] [MainThread]:   method: service-account
+[0m08:25:20.889864 [info ] [MainThread]:   database: alt-school-project-425214
+[0m08:25:20.891865 [info ] [MainThread]:   execution_project: alt-school-project-425214
+[0m08:25:20.893865 [info ] [MainThread]:   schema: staging
+[0m08:25:20.895868 [info ] [MainThread]:   location: EU
+[0m08:25:20.897874 [info ] [MainThread]:   priority: interactive
+[0m08:25:20.899865 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m08:25:20.901865 [info ] [MainThread]:   impersonate_service_account: None
+[0m08:25:20.904868 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m08:25:20.906866 [info ] [MainThread]:   job_retries: 1
+[0m08:25:20.908865 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m08:25:20.910865 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m08:25:20.912867 [info ] [MainThread]:   timeout_seconds: 300
+[0m08:25:20.914865 [info ] [MainThread]:   client_id: None
+[0m08:25:20.917867 [info ] [MainThread]:   token_uri: None
+[0m08:25:20.920873 [info ] [MainThread]:   dataproc_region: None
+[0m08:25:20.922869 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m08:25:20.924865 [info ] [MainThread]:   gcs_bucket: None
+[0m08:25:20.926868 [info ] [MainThread]:   dataproc_batch: None
+[0m08:25:20.930869 [info ] [MainThread]: Registered adapter: bigquery=1.8.2
+[0m08:25:20.932863 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m08:25:20.934992 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m08:25:20.942089 [debug] [MainThread]: On debug: select 1 as id
+[0m08:25:22.336697 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=alt-school-project-425214&j=bq:EU:f4aae8e2-c9a1-4455-b6d0-323fc8813744&page=queryresults
+[0m08:25:22.889160 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m08:25:22.892163 [info ] [MainThread]: [31m1 check failed:[0m
+[0m08:25:22.895169 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Awalem\Desktop\ALT_School\altshool_final_project\dbt_setup\dbt_project.yml> not found
+
+[0m08:25:22.901489 [debug] [MainThread]: Command `dbt debug` failed at 08:25:22.900830 after 18.75 seconds
+[0m08:25:22.903529 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m08:25:22.905306 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021A39B7A180>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021A39B78860>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021A1F19A150>]}
+[0m08:25:22.906507 [debug] [MainThread]: Flushing usage events
+[0m08:26:12.882604 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019BB944B890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019BBBE3C560>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019BBBE3CCB0>]}
+
+
+============================== 08:26:12.890605 | 24a1930a-5870-4e79-87ca-6b6a15195c6d ==============================
+[0m08:26:12.890605 [info ] [MainThread]: Running with dbt=1.8.5
+[0m08:26:12.893606 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Awalem\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m08:26:13.027978 [info ] [MainThread]: dbt version: 1.8.5
+[0m08:26:13.029993 [info ] [MainThread]: python version: 3.12.3
+[0m08:26:13.031994 [info ] [MainThread]: python path: C:\Users\Awalem\Desktop\ALT_School\altshool_final_project\env\Scripts\python.exe
+[0m08:26:13.032995 [info ] [MainThread]: os info: Windows-10-10.0.19044-SP0
+[0m08:26:23.738649 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.snowflake'
+[0m08:26:23.740650 [info ] [MainThread]: Using profiles dir at C:\Users\Awalem\.dbt
+[0m08:26:23.742650 [info ] [MainThread]: Using profiles.yml file at C:\Users\Awalem\.dbt\profiles.yml
+[0m08:26:23.744650 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Awalem\Desktop\ALT_School\altshool_final_project\dbt_setup\dbt_project.yml
+[0m08:26:23.746242 [info ] [MainThread]: Configuration:
+[0m08:26:23.748252 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m08:26:23.750253 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m08:26:23.753254 [info ] [MainThread]: Required dependencies:
+[0m08:26:23.755253 [debug] [MainThread]: Executing "git --help"
+[0m08:26:24.636705 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m08:26:24.638705 [debug] [MainThread]: STDERR: "b''"
+[0m08:26:24.639705 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m08:26:24.641704 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m08:26:24.643707 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m08:26:24.645705 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "dbt_project", target "dev" invalid: Runtime Error
+    Could not find adapter type snowflake!
+
+
+[0m08:26:24.649462 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Awalem\Desktop\ALT_School\altshool_final_project\dbt_setup\dbt_project.yml> not found
+
+[0m08:26:24.653981 [debug] [MainThread]: Command `dbt debug` failed at 08:26:24.653981 after 12.97 seconds
+[0m08:26:24.654984 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019BD6233B00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019BBBC86FC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019BD40E8380>]}
+[0m08:26:24.656980 [debug] [MainThread]: Flushing usage events
+[0m08:31:13.998482 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B3A9ABBEF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B3A918AAB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B3A6304920>]}
+
+
+============================== 08:31:14.238802 | f55175be-2eb8-4d26-bac4-1dc45e318c87 ==============================
+[0m08:31:14.238802 [info ] [MainThread]: Running with dbt=1.8.5
+[0m08:31:14.241803 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Awalem\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m08:31:14.358428 [info ] [MainThread]: dbt version: 1.8.5
+[0m08:31:14.359428 [info ] [MainThread]: python version: 3.12.3
+[0m08:31:14.361429 [info ] [MainThread]: python path: C:\Users\Awalem\Desktop\ALT_School\altshool_final_project\env\Scripts\python.exe
+[0m08:31:14.363428 [info ] [MainThread]: os info: Windows-10-10.0.19044-SP0
+[0m08:31:25.123501 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.snowflake'
+[0m08:31:25.125494 [info ] [MainThread]: Using profiles dir at C:\Users\Awalem\.dbt
+[0m08:31:25.127495 [info ] [MainThread]: Using profiles.yml file at C:\Users\Awalem\.dbt\profiles.yml
+[0m08:31:25.130186 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Awalem\Desktop\ALT_School\altshool_final_project\dbt_setup\dbt_project.yml
+[0m08:31:25.132177 [info ] [MainThread]: Configuration:
+[0m08:31:25.135177 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m08:31:25.139181 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m08:31:25.143179 [info ] [MainThread]: Required dependencies:
+[0m08:31:25.146182 [debug] [MainThread]: Executing "git --help"
+[0m08:31:26.795161 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m08:31:26.798163 [debug] [MainThread]: STDERR: "b''"
+[0m08:31:26.801163 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m08:31:26.806164 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m08:31:26.809160 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m08:31:26.812160 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "dbt_project", target "dev" invalid: Runtime Error
+    Could not find adapter type snowflake!
+
+
+[0m08:31:26.817159 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Awalem\Desktop\ALT_School\altshool_final_project\dbt_setup\dbt_project.yml> not found
+
+[0m08:31:26.825159 [debug] [MainThread]: Command `dbt debug` failed at 08:31:26.825159 after 14.14 seconds
+[0m08:31:26.828161 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B3A918AAB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B3C44EBB00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B3A9CD8F50>]}
+[0m08:31:26.830153 [debug] [MainThread]: Flushing usage events
+[0m08:32:34.011207 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE78981790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE7675B950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE76C54BC0>]}
+
+
+============================== 08:32:34.017209 | a431570d-7a59-4354-889a-a7085f386c6e ==============================
+[0m08:32:34.017209 [info ] [MainThread]: Running with dbt=1.8.5
+[0m08:32:34.019208 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Awalem\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt debug', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m08:32:34.103217 [info ] [MainThread]: dbt version: 1.8.5
+[0m08:32:34.105582 [info ] [MainThread]: python version: 3.12.3
+[0m08:32:34.106586 [info ] [MainThread]: python path: C:\Users\Awalem\Desktop\ALT_School\altshool_final_project\env\Scripts\python.exe
+[0m08:32:34.108015 [info ] [MainThread]: os info: Windows-10-10.0.19044-SP0
+[0m08:32:47.690163 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.snowflake'
+[0m08:32:47.703157 [info ] [MainThread]: Using profiles dir at C:\Users\Awalem\.dbt
+[0m08:32:47.717487 [info ] [MainThread]: Using profiles.yml file at C:\Users\Awalem\.dbt\profiles.yml
+[0m08:32:47.726485 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Awalem\Desktop\ALT_School\altshool_final_project\dbt_setup\dbt_project.yml
+[0m08:32:47.732492 [info ] [MainThread]: Configuration:
+[0m08:32:47.742485 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m08:32:47.759486 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m08:32:47.769484 [info ] [MainThread]: Required dependencies:
+[0m08:32:47.775484 [debug] [MainThread]: Executing "git --help"
+[0m08:32:49.775829 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m08:32:49.777833 [debug] [MainThread]: STDERR: "b''"
+[0m08:32:49.780834 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m08:32:49.785376 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m08:32:49.788377 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m08:32:49.792481 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "dbt_project", target "dev" invalid: Runtime Error
+    Could not find adapter type snowflake!
+
+
+[0m08:32:49.797466 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Awalem\Desktop\ALT_School\altshool_final_project\dbt_setup\dbt_project.yml> not found
+
+[0m08:32:49.806495 [debug] [MainThread]: Command `dbt debug` failed at 08:32:49.805468 after 17.06 seconds
+[0m08:32:49.809466 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE78981790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE78748830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE13C08CB0>]}
+[0m08:32:49.811464 [debug] [MainThread]: Flushing usage events
+[0m08:33:51.255461 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022052117D40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022051294A70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022053C34E90>]}
+
+
+============================== 08:33:51.264450 | 9149cae8-4398-4c59-b183-4e62577d0c2e ==============================
+[0m08:33:51.264450 [info ] [MainThread]: Running with dbt=1.8.5
+[0m08:33:51.266589 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Awalem\\.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m08:33:51.331428 [info ] [MainThread]: dbt version: 1.8.5
+[0m08:33:51.333639 [info ] [MainThread]: python version: 3.12.3
+[0m08:33:51.335866 [info ] [MainThread]: python path: C:\Users\Awalem\Desktop\ALT_School\altshool_final_project\env\Scripts\python.exe
+[0m08:33:51.337529 [info ] [MainThread]: os info: Windows-10-10.0.19044-SP0
+[0m08:33:57.439120 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.snowflake'
+[0m08:33:57.443118 [info ] [MainThread]: Using profiles dir at C:\Users\Awalem\.dbt
+[0m08:33:57.445117 [info ] [MainThread]: Using profiles.yml file at C:\Users\Awalem\.dbt\profiles.yml
+[0m08:33:57.448119 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Awalem\Desktop\ALT_School\altshool_final_project\dbt_setup\dbt_project.yml
+[0m08:33:57.451452 [info ] [MainThread]: Configuration:
+[0m08:33:57.453450 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m08:33:57.456451 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m08:33:57.458451 [info ] [MainThread]: Required dependencies:
+[0m08:33:57.462456 [debug] [MainThread]: Executing "git --help"
+[0m08:33:59.019575 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m08:33:59.021589 [debug] [MainThread]: STDERR: "b''"
+[0m08:33:59.023579 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m08:33:59.026581 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m08:33:59.028586 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m08:33:59.031578 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "dbt_project", target "dev" invalid: Runtime Error
+    Could not find adapter type snowflake!
+
+
+[0m08:33:59.035576 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Awalem\Desktop\ALT_School\altshool_final_project\dbt_setup\dbt_project.yml> not found
+
+[0m08:33:59.042873 [debug] [MainThread]: Command `dbt debug` failed at 08:33:59.042873 after 9.35 seconds
+[0m08:33:59.044872 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220543C5850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002206F483B00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002206DD31370>]}
+[0m08:33:59.046866 [debug] [MainThread]: Flushing usage events
+[0m08:37:02.529718 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A8375550A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A832E43B00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A837557AD0>]}
+
+
+============================== 08:37:02.536736 | 163793b7-b7e0-4d59-a8fb-9368000b8bfe ==============================
+[0m08:37:02.536736 [info ] [MainThread]: Running with dbt=1.8.5
+[0m08:37:02.538733 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Awalem\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt debug', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m08:37:02.646320 [info ] [MainThread]: dbt version: 1.8.5
+[0m08:37:02.648315 [info ] [MainThread]: python version: 3.12.3
+[0m08:37:02.649318 [info ] [MainThread]: python path: C:\Users\Awalem\Desktop\ALT_School\altshool_final_project\env\Scripts\python.exe
+[0m08:37:02.651312 [info ] [MainThread]: os info: Windows-10-10.0.19044-SP0
+[0m08:37:09.334338 [info ] [MainThread]: Using profiles dir at C:\Users\Awalem\.dbt
+[0m08:37:09.336602 [info ] [MainThread]: Using profiles.yml file at C:\Users\Awalem\.dbt\profiles.yml
+[0m08:37:09.338624 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Awalem\Desktop\ALT_School\altshool_final_project\dbt_setup\dbt_project.yml
+[0m08:37:09.341625 [info ] [MainThread]: adapter type: bigquery
+[0m08:37:09.343616 [info ] [MainThread]: adapter version: 1.8.2
+[0m08:37:09.346640 [info ] [MainThread]: Configuration:
+[0m08:37:09.348613 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m08:37:09.351613 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m08:37:09.354228 [info ] [MainThread]: Required dependencies:
+[0m08:37:09.356243 [debug] [MainThread]: Executing "git --help"
+[0m08:37:10.778660 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m08:37:10.780661 [debug] [MainThread]: STDERR: "b''"
+[0m08:37:10.782663 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m08:37:10.786345 [info ] [MainThread]: Connection:
+[0m08:37:10.789300 [info ] [MainThread]:   method: service-account
+[0m08:37:10.791717 [info ] [MainThread]:   database: alt-school-project-425214
+[0m08:37:10.795006 [info ] [MainThread]:   execution_project: alt-school-project-425214
+[0m08:37:10.797367 [info ] [MainThread]:   schema: raw_data
+[0m08:37:10.801285 [info ] [MainThread]:   location: EU
+[0m08:37:10.803604 [info ] [MainThread]:   priority: interactive
+[0m08:37:10.805617 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m08:37:10.808617 [info ] [MainThread]:   impersonate_service_account: None
+[0m08:37:10.810616 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m08:37:10.813616 [info ] [MainThread]:   job_retries: 1
+[0m08:37:10.815618 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m08:37:10.818947 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m08:37:10.821937 [info ] [MainThread]:   timeout_seconds: 300
+[0m08:37:10.823937 [info ] [MainThread]:   client_id: None
+[0m08:37:10.826935 [info ] [MainThread]:   token_uri: None
+[0m08:37:10.829954 [info ] [MainThread]:   dataproc_region: None
+[0m08:37:10.832938 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m08:37:10.835939 [info ] [MainThread]:   gcs_bucket: None
+[0m08:37:10.837938 [info ] [MainThread]:   dataproc_batch: None
+[0m08:37:10.841937 [info ] [MainThread]: Registered adapter: bigquery=1.8.2
+[0m08:37:10.844945 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m08:37:10.847938 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m08:37:10.881939 [debug] [MainThread]: On debug: select 1 as id
+[0m08:37:12.573239 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=alt-school-project-425214&j=bq:EU:26f77c30-d8a0-4d4d-b1ba-c6e8986fca9e&page=queryresults
+[0m08:37:13.444428 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m08:37:13.446948 [info ] [MainThread]: [31m1 check failed:[0m
+[0m08:37:13.449948 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Awalem\Desktop\ALT_School\altshool_final_project\dbt_setup\dbt_project.yml> not found
+
+[0m08:37:13.453952 [debug] [MainThread]: Command `dbt debug` failed at 08:37:13.453952 after 12.05 seconds
+[0m08:37:13.454950 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m08:37:13.455951 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A8373E6060>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A8375E2D20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A8502CA7E0>]}
+[0m08:37:13.456956 [debug] [MainThread]: Flushing usage events
+[0m08:38:35.971783 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000200BD13F530>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000200BEDEAAB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000200BCEE8380>]}
+
+
+============================== 08:38:35.979784 | fa3a8235-66d5-4528-be4f-1c12a705dced ==============================
+[0m08:38:35.979784 [info ] [MainThread]: Running with dbt=1.8.5
+[0m08:38:35.981783 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Awalem\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m08:38:36.056793 [info ] [MainThread]: dbt version: 1.8.5
+[0m08:38:36.058788 [info ] [MainThread]: python version: 3.12.3
+[0m08:38:36.060791 [info ] [MainThread]: python path: C:\Users\Awalem\Desktop\ALT_School\altshool_final_project\env\Scripts\python.exe
+[0m08:38:36.062818 [info ] [MainThread]: os info: Windows-10-10.0.19044-SP0
+[0m08:38:41.505607 [info ] [MainThread]: Using profiles dir at C:\Users\Awalem\.dbt
+[0m08:38:41.508610 [info ] [MainThread]: Using profiles.yml file at C:\Users\Awalem\.dbt\profiles.yml
+[0m08:38:41.511610 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Awalem\Desktop\ALT_School\altshool_final_project\dbt_setup\dbt_project.yml
+[0m08:38:41.514607 [info ] [MainThread]: adapter type: bigquery
+[0m08:38:41.516609 [info ] [MainThread]: adapter version: 1.8.2
+[0m08:38:41.520608 [info ] [MainThread]: Configuration:
+[0m08:38:41.523609 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m08:38:41.525613 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m08:38:41.528611 [info ] [MainThread]: Required dependencies:
+[0m08:38:41.532608 [debug] [MainThread]: Executing "git --help"
+[0m08:38:42.906245 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m08:38:42.908245 [debug] [MainThread]: STDERR: "b''"
+[0m08:38:42.910247 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m08:38:42.912244 [info ] [MainThread]: Connection:
+[0m08:38:42.915244 [info ] [MainThread]:   method: service-account
+[0m08:38:42.917246 [info ] [MainThread]:   database: alt-school-project-425214
+[0m08:38:42.919247 [info ] [MainThread]:   execution_project: alt-school-project-425214
+[0m08:38:42.922246 [info ] [MainThread]:   schema: staging
+[0m08:38:42.925247 [info ] [MainThread]:   location: EU
+[0m08:38:42.928248 [info ] [MainThread]:   priority: interactive
+[0m08:38:42.931245 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m08:38:42.934247 [info ] [MainThread]:   impersonate_service_account: None
+[0m08:38:42.937245 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m08:38:42.939252 [info ] [MainThread]:   job_retries: 1
+[0m08:38:42.942250 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m08:38:42.945246 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m08:38:42.947247 [info ] [MainThread]:   timeout_seconds: 300
+[0m08:38:42.949886 [info ] [MainThread]:   client_id: None
+[0m08:38:42.952902 [info ] [MainThread]:   token_uri: None
+[0m08:38:42.954903 [info ] [MainThread]:   dataproc_region: None
+[0m08:38:42.956901 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m08:38:42.959904 [info ] [MainThread]:   gcs_bucket: None
+[0m08:38:42.963909 [info ] [MainThread]:   dataproc_batch: None
+[0m08:38:42.966576 [info ] [MainThread]: Registered adapter: bigquery=1.8.2
+[0m08:38:42.969573 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m08:38:42.970574 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m08:38:42.977573 [debug] [MainThread]: On debug: select 1 as id
+[0m08:38:44.871127 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=alt-school-project-425214&j=bq:EU:72f6a036-f693-447a-b3d1-149f0a90f300&page=queryresults
+[0m08:38:45.699129 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m08:38:45.701128 [info ] [MainThread]: [31m1 check failed:[0m
+[0m08:38:45.702134 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Awalem\Desktop\ALT_School\altshool_final_project\dbt_setup\dbt_project.yml> not found
+
+[0m08:38:45.707126 [debug] [MainThread]: Command `dbt debug` failed at 08:38:45.706126 after 10.92 seconds
+[0m08:38:45.708126 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m08:38:45.709128 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000200BF764EF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000200DA3D27E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000200BC2A5DF0>]}
+[0m08:38:45.711126 [debug] [MainThread]: Flushing usage events
+[0m08:42:05.482373 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F655C05460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F6552DDA30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F655B78CB0>]}
+
+
+============================== 08:42:05.488378 | 63956062-fefb-4a24-a8ef-6f4e4b69c47c ==============================
+[0m08:42:05.488378 [info ] [MainThread]: Running with dbt=1.8.5
+[0m08:42:05.490377 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Awalem\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m08:42:05.564852 [info ] [MainThread]: dbt version: 1.8.5
+[0m08:42:05.566520 [info ] [MainThread]: python version: 3.12.3
+[0m08:42:05.568206 [info ] [MainThread]: python path: C:\Users\Awalem\Desktop\ALT_School\altshool_final_project\env\Scripts\python.exe
+[0m08:42:05.569725 [info ] [MainThread]: os info: Windows-10-10.0.19044-SP0
+[0m08:42:17.820971 [info ] [MainThread]: Using profiles dir at C:\Users\Awalem\.dbt
+[0m08:42:17.822970 [info ] [MainThread]: Using profiles.yml file at C:\Users\Awalem\.dbt\profiles.yml
+[0m08:42:17.824700 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Awalem\Desktop\ALT_School\altshool_final_project\dbt_setup\dbt_project.yml
+[0m08:42:17.826698 [info ] [MainThread]: adapter type: bigquery
+[0m08:42:17.828697 [info ] [MainThread]: adapter version: 1.8.2
+[0m08:42:17.830699 [info ] [MainThread]: Configuration:
+[0m08:42:17.833700 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m08:42:17.835700 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m08:42:17.838700 [info ] [MainThread]: Required dependencies:
+[0m08:42:17.840699 [debug] [MainThread]: Executing "git --help"
+[0m08:42:18.840048 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m08:42:18.842181 [debug] [MainThread]: STDERR: "b''"
+[0m08:42:18.843182 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m08:42:18.845310 [info ] [MainThread]: Connection:
+[0m08:42:18.847316 [info ] [MainThread]:   method: service-account
+[0m08:42:18.848313 [info ] [MainThread]:   database: alt-school-project-425214
+[0m08:42:18.850448 [info ] [MainThread]:   execution_project: alt-school-project-425214
+[0m08:42:18.852108 [info ] [MainThread]:   schema: staging
+[0m08:42:18.854113 [info ] [MainThread]:   location: EU
+[0m08:42:18.856110 [info ] [MainThread]:   priority: interactive
+[0m08:42:18.858142 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m08:42:18.859244 [info ] [MainThread]:   impersonate_service_account: None
+[0m08:42:18.861244 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m08:42:18.862243 [info ] [MainThread]:   job_retries: 1
+[0m08:42:18.864245 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m08:42:18.865246 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m08:42:18.867249 [info ] [MainThread]:   timeout_seconds: 300
+[0m08:42:18.869242 [info ] [MainThread]:   client_id: None
+[0m08:42:18.871242 [info ] [MainThread]:   token_uri: None
+[0m08:42:18.873241 [info ] [MainThread]:   dataproc_region: None
+[0m08:42:18.874246 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m08:42:18.876245 [info ] [MainThread]:   gcs_bucket: None
+[0m08:42:18.877244 [info ] [MainThread]:   dataproc_batch: None
+[0m08:42:18.880245 [info ] [MainThread]: Registered adapter: bigquery=1.8.2
+[0m08:42:18.882244 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m08:42:18.883249 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m08:42:18.910244 [debug] [MainThread]: On debug: select 1 as id
+[0m08:42:20.583328 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=alt-school-project-425214&j=bq:EU:ff7746e0-6b20-4775-a80b-0dd6c718eec2&page=queryresults
+[0m08:42:21.382193 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m08:42:21.384192 [info ] [MainThread]: [31m1 check failed:[0m
+[0m08:42:21.386192 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Awalem\Desktop\ALT_School\altshool_final_project\dbt_setup\dbt_project.yml> not found
+
+[0m08:42:21.390195 [debug] [MainThread]: Command `dbt debug` failed at 08:42:21.390195 after 17.06 seconds
+[0m08:42:21.391195 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m08:42:21.392196 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F66DCFEFC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F66E9BBB00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F655912600>]}
+[0m08:42:21.393194 [debug] [MainThread]: Flushing usage events
