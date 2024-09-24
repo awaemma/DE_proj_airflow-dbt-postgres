@@ -4,8 +4,8 @@ services:
   postgres:
     image: postgres:latest
     environment:
-      POSTGRES_USER: alt_school_user
-      POSTGRES_PASSWORD: secretPassw0rd
+      POSTGRES_USER: XXXXX
+      POSTGRES_PASSWORD: XXXXX
       POSTGRES_DB: ecommerce
     ports:
       - "5434:5432"
